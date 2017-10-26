@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tk.thinkerzhangyan.viewpractice.MainActivity"
+    >
+
+    <!--canvas和paint的基本示例-->
+    <tk.thinkerzhangyan.viewpractice.CanvasAndPaint
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--&lt;!&ndash;scale示例&ndash;&gt;-->
+    <!--<tk.thinkerzhangyan.viewpractice.CanvasSaveScale-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+    <!--&lt;!&ndash;rotate和translate示例&ndash;&gt;-->
+    <!--<tk.thinkerzhangyan.viewpractice.Clock-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+    <!--&lt;!&ndash;图层示例&ndash;&gt;-->
+    <!--<tk.thinkerzhangyan.viewpractice.CanvasLayer-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+    <!--在xml文件中使用bitmap的示例-->
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_bitmap"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/bitmapxml1"-->
+        <!--/>-->
+    <!--&lt;!&ndash;在xml文件中使用layer-list的示例&ndash;&gt;-->
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/layerxml"/>-->
+
+</LinearLayout>
