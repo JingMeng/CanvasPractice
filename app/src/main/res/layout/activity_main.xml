@@ -8,37 +8,40 @@
     tools:context="tk.thinkerzhangyan.viewpractice.MainActivity"
     >
 
-    <!--canvas和paint的基本示例-->
-    <tk.thinkerzhangyan.viewpractice.CanvasAndPaint
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/bt_one"
+        android:text="Canvas And Paint"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <!--&lt;!&ndash;scale示例&ndash;&gt;-->
-    <!--<tk.thinkerzhangyan.viewpractice.CanvasSaveScale-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"/>-->
+    <Button
+        android:id="@+id/bt_two"
+        android:text="Canvas Layer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    <!--&lt;!&ndash;rotate和translate示例&ndash;&gt;-->
-    <!--<tk.thinkerzhangyan.viewpractice.Clock-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"/>-->
+    <Button
+        android:id="@+id/bt_three"
+        android:text="Canvas Save Scale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    <!--&lt;!&ndash;图层示例&ndash;&gt;-->
-    <!--<tk.thinkerzhangyan.viewpractice.CanvasLayer-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"/>-->
+    <Button
+        android:id="@+id/bt_four"
+        android:text="Clip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    <!--在xml文件中使用bitmap的示例-->
-    <!--<ImageView-->
-        <!--android:id="@+id/iv_bitmap"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:src="@drawable/bitmapxml1"-->
-        <!--/>-->
-    <!--&lt;!&ndash;在xml文件中使用layer-list的示例&ndash;&gt;-->
-    <!--<ImageView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:src="@drawable/layerxml"/>-->
+    <Button
+        android:id="@+id/bt_five"
+        android:text="Clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_six"
+        android:text="Others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
