@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, ClipActivity.class);
+                Intent intent = new Intent(MainActivity.this, ClipRectActivity.class);
                 startActivity(intent);
 
             }
@@ -79,6 +79,25 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(MainActivity.this, CanvasAndPaintActivity.class);
                 startActivity(intent);
+
+            }
+        });
+
+        findViewById(R.id.bt_seven).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, ClipPathActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        findViewById(R.id.bt_eight).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
 
             }
         });
