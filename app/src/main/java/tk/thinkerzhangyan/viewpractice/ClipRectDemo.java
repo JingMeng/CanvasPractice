@@ -1,4 +1,4 @@
-package com.richinfo.cliprectdemo;
+package tk.thinkerzhangyan.viewpractice;
 
 import android.content.Context;
 import android.graphics.Canvas;

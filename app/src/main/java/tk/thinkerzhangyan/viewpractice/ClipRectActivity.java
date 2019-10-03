@@ -1,9 +1,7 @@
 package tk.thinkerzhangyan.viewpractice;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.richinfo.cliprectdemo.ClipRectDemo;
+import android.support.v7.app.AppCompatActivity;
 
 public class ClipRectActivity extends AppCompatActivity {
 
