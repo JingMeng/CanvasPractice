@@ -32,6 +32,8 @@
         </activity>
         <activity android:name=".DrawTextActivity">
         </activity>
+        <activity android:name=".XferModeActivity">
+        </activity>
     </application>
 
 </manifest>
